@@ -1,0 +1,134 @@
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul>li{
+    list-style-type: none;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.navbar{
+    list-style-type: none;
+    margin: 10px;
+    overflow: hidden;
+    margin-right: 16px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+.nav-left{
+    float: left;
+    list-style: none;
+    display: flex;
+    text-align: center;
+    padding-top: 5px;
+}
+.nav-right{
+    float: right;
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+.nav-apps{
+    width: 20px;
+    height: 20px;
+}
+.button-sign-in{
+    background-color: #4485f4;
+    color:#ffff;
+    height: 30px;
+    width: 80px;
+    border: 2px solid #4485f4;
+    border-radius: 3px;
+    border-color: #4485f4;
+    box-shadow: none;
+}
+.nav-text{
+    margin-top: 5px;
+}
+.middle{
+    display: flex;
+    text-align: center;
+    width: 100%;
+    height: 90%;
+    padding-bottom: 10%;
+    background-color: #ffff;
+    flex-direction: column;
+}
+.google{
+    width: 500px;
+    height: 300px;
+    margin-left: 35%;
+    float: left;
+    object-fit: none;
+}
+.search-stick{
+    position: relative;
+    width: 750px;
+    height: 45px;
+    margin-left: 26%;
+    margin-top: -3%;
+    border: 2px solid #e9ebed;
+    border-radius: 30px;
+    float: left;
+    z-index: 1;
+}
+.mic-icon{
+    width: 15px;
+    height: auto;
+    margin-top: -1.3%;
+    margin-left: 74%;
+    float: left;
+    z-index: 2;
+}
+.search-icon{
+    width: 20px;
+    height: 20px;
+    margin-top: -2.4%;
+    margin-left: 27.5%;
+    float: left;
+    z-index: 2;
+}
+.button-middle{
+    width: 170px;
+    height: 40px;
+    margin-left: 39.5%;
+    margin-top: 4%;
+    border: 2px solid #e9ebed;
+    border-radius: 3px;
+    background-color: #f4f4f4;
+    float: left;
+}
+.button-middle-2{
+    width: 170px;
+    height: 40px;
+    margin-left: 52%;
+    margin-top: -2.6%;
+    border: 2px solid #e9ebed;
+    border-radius: 3px;
+    background-color: #f4f4f4;
+    float: left;
+}
+.footer{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #dfe1e5;
+    border-top: 1px solid #dadce0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: -8px;
+    line-height: 10px;
+    background-color: #f2f2f2;
+}
+.foot-left{
+    float: left;
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+.foot-right{
+    float: right;
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
